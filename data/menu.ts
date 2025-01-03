@@ -45,5 +45,16 @@ export const menus: { name: string; items: Item[] }[] = [
         description: "페이지 없음 UI 생성",
       },
     ],
-  }
+  },
+
+  {
+    name: "다양한 기법",
+    items: [
+      {
+        name: "CSS 스타일링",
+        slug: "styling",
+        description: "다양한 CSS 스타일링 라이브러리 및 방법론을 탐구",
+      },
+    ],
+  },
 ];
