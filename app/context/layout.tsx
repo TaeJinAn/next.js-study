@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "레벨업 Next.js: 서버/클라이언트 컴포넌트",
 };
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default async function Layout({ children }: { children: React.ReactNode }) {
   const categories = getTopCategories();
   return (
     <>

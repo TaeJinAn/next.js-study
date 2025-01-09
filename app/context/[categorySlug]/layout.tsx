@@ -1,10 +1,9 @@
 import { getCategories, getCategory } from "@/data/category";
 import { Boundary } from "@/ui/boundary";
-import { ClickCounter } from "@/ui/click-counter";
 import { TabGroup } from "@/ui/tab-group";
 import { Counter } from "../context-click-counter";
 
-export default function Layout({
+export default async function Layout({
   children,
   params,
 }: {
